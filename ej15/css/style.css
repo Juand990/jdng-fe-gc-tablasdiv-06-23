@@ -1,0 +1,9 @@
+.latin {
+  list-style: lower-latin;
+}
+.rome {
+  list-style: upper-roman;  
+}
+.rome li{
+    padding-left: 10px;
+}

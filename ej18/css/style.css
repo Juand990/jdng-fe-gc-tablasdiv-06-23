@@ -1,0 +1,26 @@
+.azul {
+  width: 210px;
+  height: 120px;
+  border: 2px solid blue;
+  background-image:url(../img/f01.png),url(../img/f02.png),url(../img/f03.png);
+  background-position: bottom,0px 10px,top;
+  background-repeat: repeat-x,no-repeat,no-repeat; 
+  background-color: rgb(125, 209, 248);
+}
+/*f01 -> suelo*/
+/*f02 -> verde*/
+/*f03 -> cielo*/
+.rojo {
+  width: 420px;
+  height: 360px;
+  border: 2px solid red;
+  margin: 20px 0 20px 20px;
+  background-image:url(../img/f01.png),url(../img/f02.png),url(../img/f03.png);
+  background-position: bottom,bottom left,top left;
+  background-repeat: repeat-x,no-repeat,repeat-x; 
+  background-color: rgb(125, 209, 248);
+}
+
+p{
+  margin: 0;
+}

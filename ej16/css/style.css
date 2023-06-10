@@ -1,0 +1,29 @@
+table {
+  border-style: outset;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(70, 43, 43);
+  text-align: center;
+}
+th,td {
+  border: 2px outset gray;
+}
+th {
+  font: lighter;
+  background-color: rgb(89, 122, 89);
+}
+.subtit {
+  background-color: rgb(228, 175, 159);
+  font: bold;
+  font-size: 1em;
+}
+.tamano {
+  background-color: rgb(250, 253, 62);
+}
+.conimagen {
+  color: rgb(248, 52, 52);
+  background-image: url(../img/huellas.png);
+  background-color: rgb(236, 236, 147);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

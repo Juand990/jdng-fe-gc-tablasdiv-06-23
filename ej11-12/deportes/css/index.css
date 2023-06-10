@@ -1,0 +1,17 @@
+table{ 
+    background-color:rgb(43, 188, 214);
+    border: 3px rgb(252, 236, 236);
+    border-style: outset;
+}
+
+th{
+    color:rgb(168, 233, 168);
+    background-color: rgb(5, 78, 69);
+}
+
+.c1{
+    background-color: rgb(161, 233, 161);
+}
+.c2{
+    background-color: rgb(74, 177, 74);
+}

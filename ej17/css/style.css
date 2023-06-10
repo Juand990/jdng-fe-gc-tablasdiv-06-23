@@ -1,0 +1,87 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  float: left;
+  margin: 20px;
+}
+p {
+  text-align: center;
+}
+body {
+  background-image: url(../img/ac.jpg);
+}
+.mantel {
+  background-image: url(../img/back_mantel.jpg);
+}
+
+.min-mantel {
+  background-color: transparent;
+}
+.min-mantel div {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/back_mantel.jpg);
+}
+.cuadrado {
+  background-image: url(../img/back_mantel.jpg);
+  background-size: contain;
+}
+.min-cuad {
+  background-color: white;
+}
+.min-cuad div {
+  background-image: url(../img/back_mantel.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  border: 0px;
+}
+.full {
+  background-image: url(../img/dh.jpg);
+  background-size: contain;
+}
+.no-full {
+  background-color: white;
+}
+.no-full div {
+  background-image: url(../img/dh.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  border: 0px;
+}
+.aplastado {
+  background-color: white;
+}
+.aplastado div {
+  background-image: url(../img/dh_2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0px;
+  margin: 0;
+}
+.estrecho {
+  background-color: white;
+}
+.estrecho div {
+  background-image: url(../img/dh_3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  border: 0px;
+}
+.amarillo {
+  background: linear-gradient(to right, yellow, green);
+}
+.rojo {
+  background: linear-gradient(pink, red 80%, pink);
+}
+.verde {
+  background: linear-gradient(white, green);
+}
+.transp {
+  background: linear-gradient(20deg, green, transparent);
+}

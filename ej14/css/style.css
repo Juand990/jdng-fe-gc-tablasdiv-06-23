@@ -1,0 +1,33 @@
+table{     
+    border:4px outset gray;  
+    border-collapse: collapse; 
+}
+
+.cont {  
+    position: relative; 
+}
+
+th,td{
+    padding:0 100px;
+}
+
+th{
+    background-color:white;
+}
+td{    
+    border: 2px outset gray;
+    background-color: rgb(200, 233, 135);
+}
+
+img{   
+    width: 720px;
+    margin:auto;
+    display: block;  
+}
+
+.tab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
